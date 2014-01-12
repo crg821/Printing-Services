@@ -1,0 +1,167 @@
+body {
+	background: url(/images/main-area.png) repeat 0 0;
+}
+#container-login {
+	margin-top: 32px;
+}
+h1 {
+	font-size: 23px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	letter-spacing: -1px;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 12pt;
+	color: #78A827;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 12px;
+}
+.grid_5 {
+	margin-top: -5px;
+}
+.grid_3 .push_6 .button{
+	margin: 10px;
+}
+
+a {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #4495cb; 
+}
+.button {
+	display: inline-block;
+	background-image: url(/images/bar-left.png), url(/images/bar-right.png), url(/images/bar.png);
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: left top, right top, left top;
+	height: 45px;
+	width:140px;
+	border:none;
+}
+p .button {
+	font-size: 13px;
+	color: white;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+.button a p {
+	font-size: 13px;
+	color: white;
+	text-align:center;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+#header {
+	margin-bottom: 25px;
+}
+#top-bar {
+	display: inline-block;
+	background-image: url(/images/bar-left.png), url(/images/bar-right.png), url(/images/bar.png);
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: left top, right top, left top;
+	height: 45px;
+}
+
+#logo h1 {
+	border: 0;
+	width: 181px;
+	height: 58px;
+	margin: 0px;
+	padding: 0;
+	background: url(/images/VersaTekGroup.png) no-repeat 0 0;
+}
+#logo h1 a {
+	display: block;
+	text-indent: -9999px;
+}
+#main-content .grid_24 {
+	background: #ffffff;
+	width: 928px;
+	height: 100%;
+	position: relative;
+	border: 1px solid #b5b5b5;
+	padding: 20px 10px 20px 10px;
+}
+#message {
+	
+	margin-left: -40px;
+	float: left;
+	width: auto;
+	display: inline-block;
+	background-image: url(/images/left-ribbon.png), url(/images/right-ribbon.png), url(/images/ribbon-bg.png);
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-position: left top, right top, left top;
+	height: 50px;
+	color: white;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+	padding: 0 10px 0 10px;
+}
+#info-btn h1 {
+	float: right;
+	text-decoration: none;
+	width: 17px;
+	height: 21px;
+	background: url(/images/doc.png) no-repeat 0 0;
+	margin-top: 9px;
+}
+#info-btn h1 a {
+	display: block;
+	text-indent: -9999px;
+}
+#title {
+	color: white;
+	margin-top: -6px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+ul#required {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+ul#top-list, ul#bottom-list {
+	text-align: center;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+ul#top-list li {
+	display: inline;
+}
+ul#bottom-list li {
+	display: inline;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+ .grid_1{
+	width: 30px;
+	height: 306px;
+	background:url(/images/divider.png);
+	background-repeat:repeat-y;
+	
+
+}
+.bottomShadow{
+	width: 928px;
+	height: 26px;
+	background:url(/images/bottomShadow.png);
+}
+input, textarea { 
+	margin-top:5px;
+	width:240px;
+	padding: 9px;
+	border: solid 1px #ededed;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 40, from(#f4f4f4), color-stop(4%, #f4f4f4), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 40px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 2px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 2px;
+	}
+@font-face {
+	font-family: 'helbadbnormal';
+	src: url('/fonts/hellbadbnormal.ttf');
+	src: local('helbadbnormal'), local('Helbadb'), url('/fonts/helbadbnormal.ttf') format('truetype');
+}
