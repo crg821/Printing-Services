@@ -73,6 +73,7 @@ if (defined('ENVIRONMENT'))
  *
  */
 	$application_folder = 'application';
+	$application_route = '';
 
 /*
  * --------------------------------------------------------------------
